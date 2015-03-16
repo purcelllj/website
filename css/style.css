@@ -151,6 +151,15 @@ div.caption#safe {
     max-width: 80%;
 }
 
+div.footer {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding:10px;
+    margin: 0;
+    opacity: 0.95;
+}
+
 @media (max-width:650px) {
     #bodycontainer {
         width: 100%;
