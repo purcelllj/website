@@ -115,8 +115,9 @@ div#persanchor {
 }
 
 #infogphoto {
-    width: 280px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+
 }
 
 
@@ -166,6 +167,39 @@ div.caption#river {
     max-width: 80%;
 }
 
+
+div#infoph {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#infog {
+    z-index: 100;
+    bottom: 60px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    position: relative;
+    max-width: 50%;
+    left: 0;
+}
+
+#infogphoto {
+    width: 280px;
+    height: 200px;
+
+}
+
+#infocap a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
 div.footer {
     background-color: black;
     color: white;
@@ -181,7 +215,7 @@ div.footer {
     margin-top:0;
     font-family: 'Lato', sans-serif;
     color:black;
-    text-align: justify;
+    text-align: center;
     max-width: 80%;
 }
 
@@ -195,26 +229,53 @@ div.footer {
         height: 170px;
     }
     iframe {
-        width: 80%;
+        width: 90%;
     }
     div.caption#safe {
-        margin: 10%;
+        margin: 5%;
         margin-top:0;
         font-family: 'Lato', sans-serif;
         font-size: 90%;
         color: black;
-        text-align: justify;
-        max-width: 80%;
+        text-align: left;
+        max-width: 90%;
     }
 
     div.caption#river {
-        margin: 10%;
+        margin: 5%;
         margin-top:0;
         font-family: 'Lato', sans-serif;
         font-size: 90%;
         color: black;
-        text-align: justify;
-        max-width: 80%;
+        text-align: left;
+        max-width: 90%;
+    }
+
+    #aboutpar {
+        margin: 5%;
+        margin-top: 0;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        text-align: left;
+        max-width: 90%;
+    }
+
+    #projpar {
+        margin: 5%;
+        margin-top: 0;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        text-align: left;
+        max-width: 90%;
+    }
+
+    #perspar {
+        margin: 5%;
+        margin-top: 0;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        text-align: left;
+        max-width: 90%;
     }
 
 }
