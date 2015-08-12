@@ -1,7 +1,7 @@
 
 body, html{
     color: white;
-    background: url(../images/back3.png) no-repeat center center fixed;
+    background: url(../images/back3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,7 +20,10 @@ nav.navbar.navbar-default.navbar-fixed-top {
     background-size: cover;
     width: 70%;
     opacity: 0.95;
-    box-shadow: 0 15px 15px 0 solid gray;
+    box-shadow: 0 10px 10px 15px solid black;
+    -webkit-box-shadow: 0 10px 10px 15px solid black;
+    -moz-box-shadow: 0 10px 10px 15px solid black;
+    -o-box-shadow: 0 10px 10px 15px solid black;
 
 }
 
