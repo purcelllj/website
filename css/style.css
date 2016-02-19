@@ -116,12 +116,6 @@ div#persanchor {
 
 }
 
-#infogphoto {
-    width: 100%;
-    height: 100%;
-
-}
-
 
 #aboutpar {
     margin: 10%;
@@ -195,7 +189,7 @@ div#infoph {
 }
 
 #infogphoto {
-    width: 280px;
+    width: 320px;
     height: 200px;
 
 }
